@@ -1,0 +1,39 @@
+#me ul{
+	list-style:none;
+}
+#me ul  li{
+	background-color:blue;
+	width:150px;
+	height:50px;
+	border:1px solid white;
+	line-height:50px;
+	text-align:center;
+	color:white;
+	font-size:18px;
+	float:left;
+	position:relative;
+}
+#me ul  li:hover{
+	background-color:orange;
+    text-decoration:underlilne;
+	
+	}
+*{
+	margin:0px;
+	padding:0px;
+}	
+#me ul ul{
+	display:none;
+}
+#me ul :hover > ul{
+       display:block;	
+}
+#me ul ul ul{
+	margin-left:150px;
+	top:0px;
+	position:absolute;
+}
+#me ul ul ul li{
+	width:170px;
+}
+
